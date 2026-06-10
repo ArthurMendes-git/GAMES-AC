@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b0wscw4ft7a1p"]
+
+[ext_resource type="Script" uid="uid://jy8c4vej4ml1" path="res://scripts/scripts.gd" id="1_g2els"]
+[ext_resource type="Texture2D" uid="uid://cc1uxqvmmbf2i" path="res://assets/Base pack/Player/p2_front.png" id="2_qhqgy"]
+
+[node name="Player" type="CharacterBody2D" unique_id=751625204]
+script = ExtResource("1_g2els")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1116096838]
+texture = ExtResource("2_qhqgy")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=368018789]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=169685051]
